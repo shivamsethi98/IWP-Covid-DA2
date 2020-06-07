@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Neuton');
+@import url('https://fonts.googleapis.com/css?family=Space Mono');
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', sans-serif;
+
+    background-color: #E5F9E0;
+    text-align: center;
+    /*float: center;*/
+    font-size: 1.1rem;
+    color: #664147;
+}
+
+h1{
+    text-align: center;
+}
+
+.content-left {
+    width: 400px;
+    height: 300px;
+
+
+    float: left;
+
+    /*background-color:#FF0; */
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: left;
+    padding-bottom: 1rem;
+
+}
+.content-right {
+    width: 400px;
+    height: 300px;
+    float: left;
+    /* Cor de fundo da div */
+    /*background-color:#F00;*/
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: left;
+    padding-bottom: 5rem;
+}
+.right {
+    text-align: right;
+    padding-left: 4rem;
+}
+.title {
+    text-align: left;
+    float: center;
+    color: #664147
+    padding-left: 2rem;
+    font-family: 'Neuton', sans-serif;
+}
+.title-tabel {
+    text-align: center;
+    float: center;
+    color: #664147
+}
+.tabel {
+    text-align: center;
+    float: center;
+    color: #664147
+    display: table;
+    padding: auto;
+    margin: 0px auto 0px auto;
+    text-align: left;
+}
+.selecion:hover {
+    color: rgb(72, 0, 139);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: grid;
+    /*grid-template-rows: auto 1fr auto;*/
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.page-footer {
+    flex-shrink: 0;
+    background-color: antiquewhite;
+}
+
+.numero {
+    background-color: antiquewhite;
+}
+
+a {
+    color: #664147
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.blink_me {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+
+
+
+
+

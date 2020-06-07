@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="120">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/9313ff6900.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <title>COVID-19 ADMIN</title>
+</head>
+<body>
+<div class="title">
+    <h1> <i class="fas fa-hospital-user blink_me" style="color: red"></i> COVID-19 | UPDATE</h1>
+</div>
+<div>
+    <br>
+    <td>Select to update</td>
+    <br> <br> <label for="state">Selection:</label> <select id="state" name="state">
+    <option value="INDIA">INDIA</option>
+    <option value="PUNJAB">PUNJAB</option>
+    <option value="SIKKIM">SIKKIM</option>
+    <option value="GOA">GOA</option>
+    <option value="GUJRAT">GUJRAT</option>
+    <option value="ASSAM">ASSAM</option>
+</select> <button id="submit">Search</button>
+    <h2 id='title-state' class="title-tabel selecion">INDIA</h2>
+    <table class="tabel">
+        <tr class="selecion">
+            <td>CASES </td>
+            <td class="right"><input type="number" min="0" id="cases"/></td>
+        </tr>
+        <tr class="selecion">
+            <td>DEATHS </td>
+            <td class="right"><input type="number" min="0" id="deaths"/></td>
+        </tr>
+        <tr class="selecion">
+            <td>RECOVERED </td>
+            <td class="right"><input type="number" min="0" id="recovered"/></td>
+        </tr>
+        <tr class="selecion">
+            <td>MORTALITY RATE  </td>
+            <td class="right"><input type="number" id="deathRate" min="0" max="100"/></td>
+        </tr>
+        <tr class="selecion">
+            <td>RECOVERY RATE </td>
+            <td class="right"><input type="number" id="recoveryRate" min="0" max="100"/></td>
+        </tr>
+    </table>
+    <br> <br> <button id='update'>Update</button> </div>
+<script src="js/admin.js">
+</script>
+</body>
+</html>
+
+
+
+
+

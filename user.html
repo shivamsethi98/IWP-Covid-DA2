@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="120">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/9313ff6900.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <title>COVID-19 USER</title>
+</head>
+<body>
+<div class="title">
+    <h1> <i class="fas fa-hospital-user blink_me" style="color: red"></i> COVID-19 Indian Cases</h1>
+</div>
+<div>
+    <h2 class="title-tabel selecion">TOTAL CASES</h2>
+    <table border=0 class="tabel">
+        <tr class="selecion">
+            <td>CASES </td>
+            <td id="india_cases" class="right"></td>
+        </tr>
+        <tr class="selecion">
+            <td>DEATHS </td>
+            <td id="india_deaths" class="right color-red"></td>
+        </tr>
+        <tr class="selecion">
+            <td>RECOVERED </td>
+            <td id="india_recovered" class="right color-green"></td>
+        </tr>
+        <tr class="selecion">
+            <td>MORTALITY RATE  </td>
+            <td id="india_death_rate" class="right"></td>
+        </tr>
+        <tr class="selecion">
+            <td>RECOVERY RATE </td>
+            <td id="india_recovered_rate" class="right"></td>
+        </tr>
+    </table>
+</div>
+<br> <br>
+<div>
+    <h2 id='title-state' class="title-tabel selecion">PUNJAB</h2>
+    <table border=0 class="tabel">
+        <tr class="selecion">
+            <td>CASES </td>
+            <td id="state_cases" class="right"></td>
+        </tr>
+        <tr class="selecion">
+            <td>DEATHS </td>
+            <td id="state_deaths" class="right"></td>
+        </tr>
+        <tr class="selecion">
+            <td>RECOVERED </td>
+            <td id="state_recovered" class="right"></td>
+        </tr>
+        <tr class="selecion">
+            <td>MORTALITY RATE </td>
+            <td id="state_death_rate" class="right"></td>
+        </tr>
+        <tr class="selecion">
+            <td>RECOVERY RATE </td>
+            <td id="state_recovered_rate" class="right"></td>
+        </tr>
+    </table> <br>
+    <td>Search by State</td>
+    <br> <label for="state">Selection:</label>
+    <select id="state" name="state">
+        <option value="PUNJAB">PUNJAB</option>
+        <option value="SIKKIM">SIKKIM</option>
+        <option value="GOA">GOA</option>
+        <option value="GUJRAT">GUJRAT</option>
+        <option value="ASSAM">ASSAM</option>
+    </select>
+    <button id="submit">Search</button> </div>
+<script src="js/user.js"></script> </body> </html>
+
+
+
+
+
